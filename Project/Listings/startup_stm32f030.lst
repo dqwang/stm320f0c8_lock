@@ -364,10 +364,10 @@ ARM Macro Assembler    Page 6
               00000200 
               00000000 
 Command Line: --debug --xref --cpu=Cortex-M0 --apcs=interwork --depend=.\object
-s\startup_stm32f030.d -o.\objects\startup_stm32f030.o -IC:\Users\MiladuoSoft\De
-sktop\LOCK1\Project\RTE -IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0 -IC:\Kei
-l_v5\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --predefine="STM32F030x8 SET
-A 1" --list=.\listings\startup_stm32f030.lst ..\User\startup_stm32f030.s
+s\startup_stm32f030.d -o.\objects\startup_stm32f030.o -IZ:\sihan\stm\stm320f0c8
+_lock\Project\RTE -IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0 -IC:\Keil_v5\A
+RM\CMSIS\Include --predefine="__EVAL SETA 1" --predefine="STM32F030x8 SETA 1" -
+-list=.\listings\startup_stm32f030.lst ..\User\startup_stm32f030.s
 
 
 

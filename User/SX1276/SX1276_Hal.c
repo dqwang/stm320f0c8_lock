@@ -425,7 +425,7 @@ void SX1276WriteBuffer( uint8_t addr, uint8_t *buffer, uint8_t size )
     //SPI_NSS_OUT = 0;
     RF_CS_L;
     
-    SPI_SendData(addr | 0x80);
+     SPI_SendData(addr | 0x80);
     for( i = 0; i < size; i++ )
         SPI_SendData(buffer[i]);
 
@@ -514,3 +514,19 @@ void SX1276ReadFifo( uint8_t *buffer, uint8_t size )
     }
 }*/
 ////////////////////////////////////////////////////////////////////////////////
+
+void SPI_SendData(UINT8 Data)
+{
+	while(SPI_I2S_GetFlagStatus(SPI2,SPI_I2S_FLAG_TXE)==RESET);
+    SPI_SendData8(SPI2,Data);
+}
+UINT8 SPI_ReceiveData(void)
+{
+	while(SPI_I2S_GetFlagStatus(SPI2,SPI_I2S_FLAG_TXE)==RESET);
+    SPI_SendData8(SPI2,0);
+	while(SPI_I2S_GetFlagStatus(SPI2,SPI_I2S_FLAG_RXNE)==RESET);
+	return (SPI_ReceiveData8(SPI2));
+}
+
+
+

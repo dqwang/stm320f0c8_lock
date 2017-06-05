@@ -42,3 +42,10 @@
 .\objects\card.o: ..\User\LOCK\CARD.h
 .\objects\card.o: ..\User\LOCK\DISP.h
 .\objects\card.o: ..\User\LOCK\MOTO.h
+.\objects\card.o: ..\User\LOCK\lora.h
+.\objects\card.o: ..\User\SX1276\rf.h
+.\objects\card.o: ..\User\main.h
+.\objects\card.o: ..\User\SX1276\SX1276_App.h
+.\objects\card.o: ..\User\SX1276\SX1276.h
+.\objects\card.o: ..\User\SX1276\SX1276_LoRa.h
+.\objects\card.o: ..\User\SX1276\SX1276_Hal.h

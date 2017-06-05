@@ -8,34 +8,36 @@ Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
 License Information: jack wang, MiladuoSoft, LIC=----
  
 Tool Versions:
-Toolchain:       MDK-Lite  Version: <unknown>
-Toolchain Path:  C:\Keil_v5\ARM\ARMCC\bin\
+Toolchain:       MDK-Lite  Version: 5.12.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
 C Compiler:      Armcc.exe V5.05 (build 41)
 Assembler:       Armasm.exe V5.05 (build 41)
 Linker/Locator:  ArmLink.exe V5.05 (build 41)
 Library Manager: ArmAr.exe V5.05 (build 41)
 Hex Converter:   FromElf.exe V5.05 (build 41)
-CPU DLL:         SARMCM3.DLL
-Dialog DLL:      DARMCM1.DLL
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DARMCM1.DLL V1.11.00.0
     Target DLL: STLink\ST-LINKIII-KEIL_SWO.dll
-Dialog DLL:      TARMCM1.DLL
+Dialog DLL:      TARMCM1.DLL V1.08.00.0
  
 <h2>Project:</h2>
-Z:\sihan\LOCK1\Project\WDQ_STM32_LOCK.uvprojx
-Project File Date:  06/01/2017
+Z:\sihan\stm\stm320f0c8_lock\Project\WDQ_STM32_LOCK.uvprojx
+Project File Date:  06/02/2017
 
 <h2>Output:</h2>
-Load "Z:\\sihan\\LOCK1\\Project\\Objects\\WDQ_STM32_LOCK.axf" 
-Full Chip Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Load "Z:\\sihan\\LOCK1\\Project\\Objects\\WDQ_STM32_LOCK.axf" 
-Full Chip Erase Done.
-Programming Done.
-Verify OK.
-Application running ...
-Load "Z:\\sihan\\LOCK1\\Project\\Objects\\WDQ_STM32_LOCK.axf" 
+Build target 'WDQ_STM32_LOCK'
+compiling main.c...
+linking...
+Program Size: Code=25570 RO-data=366 RW-data=124 ZI-data=4668  
+FromELF: creating hex file...
+".\Objects\WDQ_STM32_LOCK.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  Z:\sihan\stm\stm320f0c8_lock\Project\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0
+
+<h2>Collection of Component Files used:</h2>
+Load "Z:\\sihan\\stm\\stm320f0c8_lock\\Project\\Objects\\WDQ_STM32_LOCK.axf" 
 Full Chip Erase Done.
 Programming Done.
 Verify OK.
@@ -43,3 +45,308 @@ Application running ...
 </pre>
 </body>
 </html>
+
+compiling stm32f0xx_exti.c...
+compiling stm32f0xx_flash.c...
+compiling stm32f0xx_gpio.c...
+compiling stm32f0xx_i2c.c...
+compiling stm32f0xx_iwdg.c...
+compiling stm32f0xx_misc.c...
+compiling stm32f0xx_pwr.c...
+compiling stm32f0xx_rcc.c...
+compiling stm32f0xx_rtc.c...
+compiling stm32f0xx_spi.c...
+compiling stm32f0xx_syscfg.c...
+compiling stm32f0xx_tim.c...
+compiling stm32f0xx_usart.c...
+compiling stm32f0xx_wwdg.c...
+compiling rf.c...
+compiling SX1276.c...
+compiling SX1276_App.c...
+compiling SX1276_Hal.c...
+linking...
+Program Size: Code=25454 RO-data=366 RW-data=124 ZI-data=4668  
+FromELF: creating hex file...
+".\Objects\WDQ_STM32_LOCK.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  Z:\sihan\stm\stm320f0c8_lock\Project\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0
+
+<h2>Collection of Component Files used:</h2>
+Load "Z:\\sihan\\stm\\stm320f0c8_lock\\Project\\Objects\\WDQ_STM32_LOCK.axf" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+\\stm\\stm320f0c8_lock\\Project\\Objects\\WDQ_STM32_LOCK.axf" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+
+          LED1_ON;
+..\User\SX1276\rf.c(147): error:  #20: identifier "DIO0_IFG" is undefined
+      if(DIO0_IFG && DIO0_IE)     //RxDone中断
+..\User\SX1276\rf.c(147): error:  #20: identifier "DIO0_IE" is undefined
+      if(DIO0_IFG && DIO0_IE)     //RxDone中断
+..\User\SX1276\rf.c(153): error:  #20: identifier "EQUinfo" is undefined
+              if(_rf.packBuf[0] == RF_WAKE_CODE && (_rf.packBuf[1] == EQUinfo.LOCALNUM[3] || _rf.packBuf[1] == RF_BROADCAST_ADDR))
+..\User\SX1276\rf.c(156): error:  #20: identifier "LED2_ON" is undefined
+                  LED2_ON;
+..\User\SX1276\rf.c(157): error:  #20: identifier "LPM4_EXIT" is undefined
+                  LPM4_EXIT;
+..\User\SX1276\rf.c(158): warning:  #223-D: function "_NOP" declared implicitly
+                  _NOP();
+..\User\SX1276\rf.c(165): error:  #20: identifier "LED1_OFF" is undefined
+                  LED1_OFF;
+..\User\SX1276\rf.c(173): error:  #20: identifier "EQUinfo" is undefined
+              if((_rf.packBuf[0] > RF_PACK_START_LEN) && (_rf.packBuf[0] <= RF_PACK_SIZE) && (_rf.packBuf[1] == EQUinfo.LOCALNUM[3] || _rf.packBuf[1] == RF_BROADCAST_ADDR))
+..\User\SX1276\rf.c(175): error:  #20: identifier "LED2_ON" is undefined
+                  LED2_ON;
+..\User\SX1276\rf.c(180): error:  #20: identifier "LED2_OFF" is undefined
+                  LED2_OFF;
+..\User\SX1276\rf.c(183): error:  #20: identifier "LPM4_EXIT" is undefined
+                      LPM4_EXIT;
+..\User\SX1276\rf.c(184): warning:  #223-D: function "_NOP" declared implicitly
+                      _NOP();
+..\User\SX1276\rf.c(192): error:  #20: identifier "P2IFG" is undefined
+      P2IFG=0;
+..\User\SX1276\rf.c: 3 warnings, 16 errors
+compiling SX1276.c...
+compiling SX1276_App.c...
+compiling SX1276_Hal.c...
+..\User\SX1276\SX1276_Hal.c(428): error:  #167: argument of type "int" is incompatible with parameter of type "SPI_TypeDef *"
+      SPI_SendData8(addr | 0x80);
+..\User\SX1276\SX1276_Hal.c(428): error:  #165: too few arguments in function call
+      SPI_SendData8(addr | 0x80);
+..\User\SX1276\SX1276_Hal.c(430): error:  #167: argument of type "uint8_t" is incompatible with parameter of type "SPI_TypeDef *"
+          SPI_SendData8(buffer[i]);
+..\User\SX1276\SX1276_Hal.c(430): error:  #165: too few arguments in function call
+          SPI_SendData8(buffer[i]);
+..\User\SX1276\SX1276_Hal.c(449): error:  #167: argument of type "int" is incompatible with parameter of type "SPI_TypeDef *"
+      SPI_SendData8(addr & 0x7F);
+..\User\SX1276\SX1276_Hal.c(449): error:  #165: too few arguments in function call
+      SPI_SendData8(addr & 0x7F);
+..\User\SX1276\SX1276_Hal.c(451): error:  #165: too few arguments in function call
+          buffer[i] = SPI_ReceiveData8();
+..\User\SX1276\SX1276_Hal.c: 0 warnings, 7 errors
+".\Objects\WDQ_STM32_LOCK.axf" - 23 Error(s), 3 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  Z:\sihan\stm\stm320f0c8_lock\Project\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+ndefined
+      bool ImplicitHeaderOn;              // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(21): error:  #20: identifier "bool" is undefined
+      bool RxSingleOn;                    // [0: Continuous, 1 Single]
+..\User\SX1276\SX1276_LoRa.h(22): error:  #20: identifier "bool" is undefined
+      bool FreqHopOn;                     // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(665): error:  #20: identifier "bool" is undefined
+  void SX1276LoRaSetLoRaOn( bool enable );
+..\User\LOCK\DISP.c: 0 warnings, 5 errors
+compiling FP.c...
+..\User\SX1276\SX1276_LoRa.h(19): error:  #20: identifier "bool" is undefined
+      bool CrcOn;                         // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(20): error:  #20: identifier "bool" is undefined
+      bool ImplicitHeaderOn;              // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(21): error:  #20: identifier "bool" is undefined
+      bool RxSingleOn;                    // [0: Continuous, 1 Single]
+..\User\SX1276\SX1276_LoRa.h(22): error:  #20: identifier "bool" is undefined
+      bool FreqHopOn;                     // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(665): error:  #20: identifier "bool" is undefined
+  void SX1276LoRaSetLoRaOn( bool enable );
+..\User\LOCK\FP.c: 0 warnings, 5 errors
+compiling KEYBD.c...
+..\User\SX1276\SX1276_LoRa.h(19): error:  #20: identifier "bool" is undefined
+      bool CrcOn;                         // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(20): error:  #20: identifier "bool" is undefined
+      bool ImplicitHeaderOn;              // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(21): error:  #20: identifier "bool" is undefined
+      bool RxSingleOn;                    // [0: Continuous, 1 Single]
+..\User\SX1276\SX1276_LoRa.h(22): error:  #20: identifier "bool" is undefined
+      bool FreqHopOn;                     // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(665): error:  #20: identifier "bool" is undefined
+  void SX1276LoRaSetLoRaOn( bool enable );
+..\User\LOCK\KEYBD.c: 0 warnings, 5 errors
+compiling LOCK.c...
+..\User\SX1276\SX1276_LoRa.h(19): error:  #20: identifier "bool" is undefined
+      bool CrcOn;                         // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(20): error:  #20: identifier "bool" is undefined
+      bool ImplicitHeaderOn;              // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(21): error:  #20: identifier "bool" is undefined
+      bool RxSingleOn;                    // [0: Continuous, 1 Single]
+..\User\SX1276\SX1276_LoRa.h(22): error:  #20: identifier "bool" is undefined
+      bool FreqHopOn;                     // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(665): error:  #20: identifier "bool" is undefined
+  void SX1276LoRaSetLoRaOn( bool enable );
+..\User\LOCK\LOCK.c: 0 warnings, 5 errors
+compiling MOTO.c...
+..\User\SX1276\SX1276_LoRa.h(19): error:  #20: identifier "bool" is undefined
+      bool CrcOn;                         // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(20): error:  #20: identifier "bool" is undefined
+      bool ImplicitHeaderOn;              // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(21): error:  #20: identifier "bool" is undefined
+      bool RxSingleOn;                    // [0: Continuous, 1 Single]
+..\User\SX1276\SX1276_LoRa.h(22): error:  #20: identifier "bool" is undefined
+      bool FreqHopOn;                     // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(665): error:  #20: identifier "bool" is undefined
+  void SX1276LoRaSetLoRaOn( bool enable );
+..\User\LOCK\MOTO.c: 0 warnings, 5 errors
+compiling VOICE.c...
+..\User\SX1276\SX1276_LoRa.h(19): error:  #20: identifier "bool" is undefined
+      bool CrcOn;                         // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(20): error:  #20: identifier "bool" is undefined
+      bool ImplicitHeaderOn;              // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(21): error:  #20: identifier "bool" is undefined
+      bool RxSingleOn;                    // [0: Continuous, 1 Single]
+..\User\SX1276\SX1276_LoRa.h(22): error:  #20: identifier "bool" is undefined
+      bool FreqHopOn;                     // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(665): error:  #20: identifier "bool" is undefined
+  void SX1276LoRaSetLoRaOn( bool enable );
+..\User\LOCK\VOICE.c: 0 warnings, 5 errors
+assembling startup_stm32f030.s...
+compiling lora.c...
+..\User\SX1276\SX1276_LoRa.h(19): error:  #20: identifier "bool" is undefined
+      bool CrcOn;                         // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(20): error:  #20: identifier "bool" is undefined
+      bool ImplicitHeaderOn;              // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(21): error:  #20: identifier "bool" is undefined
+      bool RxSingleOn;                    // [0: Continuous, 1 Single]
+..\User\SX1276\SX1276_LoRa.h(22): error:  #20: identifier "bool" is undefined
+      bool FreqHopOn;                     // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(665): error:  #20: identifier "bool" is undefined
+  void SX1276LoRaSetLoRaOn( bool enable );
+..\User\LOCK\lora.c: 0 warnings, 5 errors
+compiling stm32f0xx_adc.c...
+compiling stm32f0xx_cec.c...
+compiling stm32f0xx_comp.c...
+compiling stm32f0xx_crc.c...
+compiling stm32f0xx_dac.c...
+compiling stm32f0xx_dbgmcu.c...
+compiling stm32f0xx_dma.c...
+compiling stm32f0xx_exti.c...
+compiling stm32f0xx_flash.c...
+compiling stm32f0xx_gpio.c...
+compiling stm32f0xx_i2c.c...
+compiling stm32f0xx_iwdg.c...
+compiling stm32f0xx_misc.c...
+compiling stm32f0xx_pwr.c...
+compiling stm32f0xx_rcc.c...
+compiling stm32f0xx_rtc.c...
+compiling stm32f0xx_spi.c...
+compiling stm32f0xx_syscfg.c...
+compiling stm32f0xx_tim.c...
+compiling stm32f0xx_usart.c...
+compiling stm32f0xx_wwdg.c...
+compiling rf.c...
+..\User\SX1276\SX1276_LoRa.h(19): error:  #20: identifier "bool" is undefined
+      bool CrcOn;                         // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(20): error:  #20: identifier "bool" is undefined
+      bool ImplicitHeaderOn;              // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(21): error:  #20: identifier "bool" is undefined
+      bool RxSingleOn;                    // [0: Continuous, 1 Single]
+..\User\SX1276\SX1276_LoRa.h(22): error:  #20: identifier "bool" is undefined
+      bool FreqHopOn;                     // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(665): error:  #20: identifier "bool" is undefined
+  void SX1276LoRaSetLoRaOn( bool enable );
+..\User\SX1276\rf.c(111): warning:  #177-D: variable "crc" was declared but never referenced
+        UINT16 crc;
+..\User\SX1276\rf.c(130): error:  #20: identifier "DIO3_IFG" is undefined
+      if(DIO3_IFG && DIO3_IE)     //CadDone中断，表示没有发生CADDetected
+..\User\SX1276\rf.c(130): error:  #20: identifier "DIO3_IE" is undefined
+      if(DIO3_IFG && DIO3_IE)     //CadDone中断，表示没有发生CADDetected
+..\User\SX1276\rf.c(138): error:  #20: identifier "DIO1_IFG" is undefined
+      if(DIO1_IFG && DIO1_IE)     //CadDetected中断
+..\User\SX1276\rf.c(138): error:  #20: identifier "DIO1_IE" is undefined
+      if(DIO1_IFG && DIO1_IE)     //CadDetected中断
+..\User\SX1276\rf.c(142): error:  #20: identifier "LED1_ON" is undefined
+          LED1_ON;
+..\User\SX1276\rf.c(147): error:  #20: identifier "DIO0_IFG" is undefined
+      if(DIO0_IFG && DIO0_IE)     //RxDone中断
+..\User\SX1276\rf.c(147): error:  #20: identifier "DIO0_IE" is undefined
+      if(DIO0_IFG && DIO0_IE)     //RxDone中断
+..\User\SX1276\rf.c(153): error:  #20: identifier "EQUinfo" is undefined
+              if(_rf.packBuf[0] == RF_WAKE_CODE && (_rf.packBuf[1] == EQUinfo.LOCALNUM[3] || _rf.packBuf[1] == RF_BROADCAST_ADDR))
+..\User\SX1276\rf.c(156): error:  #20: identifier "LED2_ON" is undefined
+                  LED2_ON;
+..\User\SX1276\rf.c(157): error:  #20: identifier "LPM4_EXIT" is undefined
+                  LPM4_EXIT;
+..\User\SX1276\rf.c(158): warning:  #223-D: function "_NOP" declared implicitly
+                  _NOP();
+..\User\SX1276\rf.c(165): error:  #20: identifier "LED1_OFF" is undefined
+                  LED1_OFF;
+..\User\SX1276\rf.c(173): error:  #20: identifier "EQUinfo" is undefined
+              if((_rf.packBuf[0] > RF_PACK_START_LEN) && (_rf.packBuf[0] <= RF_PACK_SIZE) && (_rf.packBuf[1] == EQUinfo.LOCALNUM[3] || _rf.packBuf[1] == RF_BROADCAST_ADDR))
+..\User\SX1276\rf.c(175): error:  #20: identifier "LED2_ON" is undefined
+                  LED2_ON;
+..\User\SX1276\rf.c(180): error:  #20: identifier "LED2_OFF" is undefined
+                  LED2_OFF;
+..\User\SX1276\rf.c(183): error:  #20: identifier "LPM4_EXIT" is undefined
+                      LPM4_EXIT;
+..\User\SX1276\rf.c(184): warning:  #223-D: function "_NOP" declared implicitly
+                      _NOP();
+..\User\SX1276\rf.c(192): error:  #20: identifier "P2IFG" is undefined
+      P2IFG=0;
+..\User\SX1276\rf.c: 3 warnings, 21 errors
+compiling SX1276.c...
+..\User\SX1276\SX1276_LoRa.h(19): error:  #20: identifier "bool" is undefined
+      bool CrcOn;                         // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(20): error:  #20: identifier "bool" is undefined
+      bool ImplicitHeaderOn;              // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(21): error:  #20: identifier "bool" is undefined
+      bool RxSingleOn;                    // [0: Continuous, 1 Single]
+..\User\SX1276\SX1276_LoRa.h(22): error:  #20: identifier "bool" is undefined
+      bool FreqHopOn;                     // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(665): error:  #20: identifier "bool" is undefined
+  void SX1276LoRaSetLoRaOn( bool enable );
+..\User\SX1276\SX1276.c: 0 warnings, 5 errors
+compiling SX1276_App.c...
+..\User\SX1276\SX1276_LoRa.h(19): error:  #20: identifier "bool" is undefined
+      bool CrcOn;                         // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(20): error:  #20: identifier "bool" is undefined
+      bool ImplicitHeaderOn;              // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(21): error:  #20: identifier "bool" is undefined
+      bool RxSingleOn;                    // [0: Continuous, 1 Single]
+..\User\SX1276\SX1276_LoRa.h(22): error:  #20: identifier "bool" is undefined
+      bool FreqHopOn;                     // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(665): error:  #20: identifier "bool" is undefined
+  void SX1276LoRaSetLoRaOn( bool enable );
+..\User\SX1276\SX1276_App.c: 0 warnings, 5 errors
+compiling SX1276_Hal.c...
+..\User\SX1276\SX1276_LoRa.h(19): error:  #20: identifier "bool" is undefined
+      bool CrcOn;                         // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(20): error:  #20: identifier "bool" is undefined
+      bool ImplicitHeaderOn;              // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(21): error:  #20: identifier "bool" is undefined
+      bool RxSingleOn;                    // [0: Continuous, 1 Single]
+..\User\SX1276\SX1276_LoRa.h(22): error:  #20: identifier "bool" is undefined
+      bool FreqHopOn;                     // [0: OFF, 1: ON]
+..\User\SX1276\SX1276_LoRa.h(665): error:  #20: identifier "bool" is undefined
+  void SX1276LoRaSetLoRaOn( bool enable );
+..\User\SX1276\SX1276_Hal.c(428): error:  #167: argument of type "int" is incompatible with parameter of type "SPI_TypeDef *"
+      SPI_SendData8(addr | 0x80);
+..\User\SX1276\SX1276_Hal.c(428): error:  #165: too few arguments in function call
+      SPI_SendData8(addr | 0x80);
+..\User\SX1276\SX1276_Hal.c(430): error:  #167: argument of type "uint8_t" is incompatible with parameter of type "SPI_TypeDef *"
+          SPI_SendData8(buffer[i]);
+..\User\SX1276\SX1276_Hal.c(430): error:  #165: too few arguments in function call
+          SPI_SendData8(buffer[i]);
+..\User\SX1276\SX1276_Hal.c(449): error:  #167: argument of type "int" is incompatible with parameter of type "SPI_TypeDef *"
+      SPI_SendData8(addr & 0x7F);
+..\User\SX1276\SX1276_Hal.c(449): error:  #165: too few arguments in function call
+      SPI_SendData8(addr & 0x7F);
+..\User\SX1276\SX1276_Hal.c(451): error:  #165: too few arguments in function call
+          buffer[i] = SPI_ReceiveData8();
+..\User\SX1276\SX1276_Hal.c: 0 warnings, 12 errors
+".\Objects\WDQ_STM32_LOCK.axf" - 108 Error(s), 3 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  Z:\sihan\stm\stm320f0c8_lock\Project\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0
+
+<h2>Collection of Component Files used:</h2>
+Target not created.

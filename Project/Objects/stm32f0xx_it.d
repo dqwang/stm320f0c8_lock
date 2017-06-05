@@ -43,3 +43,10 @@
 .\objects\stm32f0xx_it.o: ..\User\LOCK\CARD.h
 .\objects\stm32f0xx_it.o: ..\User\LOCK\DISP.h
 .\objects\stm32f0xx_it.o: ..\User\LOCK\MOTO.h
+.\objects\stm32f0xx_it.o: ..\User\LOCK\lora.h
+.\objects\stm32f0xx_it.o: ..\User\SX1276\rf.h
+.\objects\stm32f0xx_it.o: ..\User\main.h
+.\objects\stm32f0xx_it.o: ..\User\SX1276\SX1276_App.h
+.\objects\stm32f0xx_it.o: ..\User\SX1276\SX1276.h
+.\objects\stm32f0xx_it.o: ..\User\SX1276\SX1276_LoRa.h
+.\objects\stm32f0xx_it.o: ..\User\SX1276\SX1276_Hal.h

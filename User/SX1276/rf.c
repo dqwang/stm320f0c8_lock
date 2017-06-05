@@ -107,8 +107,8 @@ UINT16  RF_PackRcv(UINT8 * packbuf, UINT8 * rfbuf)
 
 UINT8 Lora_Sendtest(UINT8 *sDat,UINT16 sLen)
 {
-	UINT8 sbuf[20]={0x0D,0xFF,0x01,0x00,0x01,0x09,0x08,0x07,0x06,0x05,0x04,0x17,0x55};
-	UINT16 crc;
+	UINT8 sbuf[20]={0xAA,0xBB,0x01,0x00,0x01,0x09,0x08,0x07,0x06,0x05,0x04,0x17,0x55};
+	//UINT16 crc;
 
 //	sbuf[3] = (UINT8)(Lora_Mod_ADRS>>8);
 //	sbuf[4] = (UINT8)(Lora_Mod_ADRS);
@@ -125,6 +125,9 @@ UINT8 Lora_Sendtest(UINT8 *sDat,UINT16 sLen)
 ////////////////////////////////////////////////////////////////
 //无线中断处理
 ////////////////////////////////////////////////////////////////
+
+//wdq
+#if 0
  void port2_isr(void)
 {  
     if(DIO3_IFG && DIO3_IE)     //CadDone中断，表示没有发生CADDetected
@@ -191,3 +194,4 @@ UINT8 Lora_Sendtest(UINT8 *sDat,UINT16 sLen)
     }
     P2IFG=0;
 }
+#endif

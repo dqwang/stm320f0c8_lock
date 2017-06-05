@@ -135,6 +135,7 @@ void LOCK_INIT(void)
 	TSM12_Init();
 	VOICE_INIT();
 	CARD_INIT();
+	//SPIx_Init();
 
 }
 void KeyBD_State_Rst(void)

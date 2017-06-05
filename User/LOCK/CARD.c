@@ -759,24 +759,26 @@ uint8 CARD_Identify(void)
 	uint8 CardID[4];
 
 	if(CARD_GETID(CardID) == RT_OK)
-		{
+	{
+	#if 0
 		if(CARD_IDCheck(CardID) == RT_OK)
-			{
+		{
 			VOICE(19,0);//-感应卡-验证成功
 			MOTO_Forward();
 			SETBIT(Sys_State,Bs_DOOR_OPEN);
 			KeyBD_State_Rst();
 			Sys_Task = PS_AutoIdentify;//空闲时为比对
-			}
-		else
-			{
-			VOICE(20,0);//-感应卡-验证失败
-			}
 		}
-	else
+		else
 		{
+			VOICE(20,0);//-感应卡-验证失败
+		}
+	#endif
+	}
+	else
+	{
 		VOICE(10,0);//-请把感应卡放入感应器
-		}	
+	}	
 	return RT_OK;
 }
 
@@ -806,10 +808,12 @@ void CARD_MAIN(void)
 				}
 			break;
 		case PS_AutoIdentify://验证卡
-			if((TESTBIT(Sys_State,Bs_CARD_ON))&&(TESTBIT(Sys_State,Bs_DOOR_OPEN)==0))//寻卡成功
+			//if((TESTBIT(Sys_State,Bs_CARD_ON))&&(TESTBIT(Sys_State,Bs_DOOR_OPEN)==0))//寻卡成功
+			if((TESTBIT(Sys_State,Bs_CARD_ON)))//寻卡成功
 				{GotoSleep_cnt=0;
 				//CLRBIT(Sys_State,Bs_CARD_ON);
-				CARD_Identify();
+				//CARD_Identify();
+				read_card_id();
 				}		
 			break;
 		case PS_DeleteChar://删除卡
@@ -821,6 +825,32 @@ void CARD_MAIN(void)
 		default:
 			break;	
 		}
+}
+
+
+
+/*wdq*/
+
+u8 read_card_id(void)
+{
+	u8 status;
+	u8 buf[4]={0};
+	unsigned char *pSnr = buf;
+
+	status = PcdAnticoll(pSnr);//防冲撞读出卡片序列号
+	if (status != MI_OK){
+		voice_error();
+		return RT_FAIL;
+	}
+	
+	voice_ok();
+	return RT_OK;
+}
+
+void test_read_card_id(void)
+{
+	read_card_id();
+	delay_ms(1000);
 }
 
 

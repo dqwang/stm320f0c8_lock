@@ -19,6 +19,14 @@
 #include <CARD.h>
 #include <DISP.h>
 #include <MOTO.h>
+
+#include "lora.h"
+#include "rf.h"
+#include "SX1276_App.h"
+#include "SX1276.h"
+#include "SX1276_Hal.h"
+#include "SX1276_LoRa.h"
+
 #define  SW_RESET()	       NVIC_SystemReset()
 
 #define sbi(ADDRESS,BIT) 	((ADDRESS->BSRR = BIT))	// Set bit

@@ -314,7 +314,23 @@ UINT8 VOICE_test(UINT8 x)
 			i++;
 		delay_ms(2000);
 		}
+}
 
+void voice_ok(void)
+{
+	VOICE(2, 0);
+}
+
+void voice_error(void)
+{
+	VOICE(1, 0);
 }
 
 
+void test_voice_ok_and_error(void)
+{
+	voice_error();
+	delay_ms(2000);
+	voice_ok();
+	delay_ms(2000);
+}

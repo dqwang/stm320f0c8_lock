@@ -133,7 +133,7 @@ unsigned char statedelay (unsigned char d,unsigned int x,volatile unsigned char 
 
 
 /*******************************************************
-//*******************************************************/
+*******************************************************/
 //unsigned char uctobcd(unsigned char uc)
 //{
 //    unsigned char ucRtn;

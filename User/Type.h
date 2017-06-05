@@ -34,6 +34,7 @@ typedef unsigned int	DWORD;
 #ifndef	_BOOL_TYPE_
 #define	_BOOL_TYPE_
 typedef	unsigned char 	BOOL;
+typedef unsigned char   bool;
 #define FALSE	0
 #define TRUE	1
 #define false 	0
@@ -136,6 +137,16 @@ typedef volatile unsigned short 	VUINT16;
 #define _VUINT32_TYPE_
 typedef volatile unsigned long  VUINT32;
 #endif
+
+typedef unsigned char u8;
+typedef unsigned short u16;
+typedef unsigned int u32;
+
+typedef unsigned char U8;
+typedef unsigned short U16;
+typedef unsigned int U32;
+
+
 
 //--------------return code-------------
 #define RT_OK            0x00 //success

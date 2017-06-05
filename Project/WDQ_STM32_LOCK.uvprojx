@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER STM32F0XX</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Library\CMSIS;..\Library\STM32F0xx_StdPeriph_Driver\inc;..\Library\STM32F0xx_StdPeriph_Driver\src;..\User;..\Library\CMSIS\Include;..\Library\CMSIS\Device\ST\STM32F0xx\Include;..\User\LOCK</IncludePath>
+              <IncludePath>..\Library\CMSIS;..\Library\STM32F0xx_StdPeriph_Driver\inc;..\Library\STM32F0xx_StdPeriph_Driver\src;..\User;..\Library\CMSIS\Include;..\Library\CMSIS\Device\ST\STM32F0xx\Include;..\User\LOCK;..\User\SX1276</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -478,6 +478,11 @@
               <FileType>2</FileType>
               <FilePath>..\User\startup_stm32f030.s</FilePath>
             </File>
+            <File>
+              <FileName>lora.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\LOCK\lora.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -587,6 +592,31 @@
               <FileName>stm32f0xx_wwdg.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_wwdg.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>SX1276</GroupName>
+          <Files>
+            <File>
+              <FileName>rf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\SX1276\rf.c</FilePath>
+            </File>
+            <File>
+              <FileName>SX1276.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\SX1276\SX1276.c</FilePath>
+            </File>
+            <File>
+              <FileName>SX1276_App.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\SX1276\SX1276_App.c</FilePath>
+            </File>
+            <File>
+              <FileName>SX1276_Hal.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\SX1276\SX1276_Hal.c</FilePath>
             </File>
           </Files>
         </Group>

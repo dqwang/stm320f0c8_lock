@@ -42,3 +42,10 @@
 .\objects\keybd.o: ..\User\LOCK\CARD.h
 .\objects\keybd.o: ..\User\LOCK\DISP.h
 .\objects\keybd.o: ..\User\LOCK\MOTO.h
+.\objects\keybd.o: ..\User\LOCK\lora.h
+.\objects\keybd.o: ..\User\SX1276\rf.h
+.\objects\keybd.o: ..\User\main.h
+.\objects\keybd.o: ..\User\SX1276\SX1276_App.h
+.\objects\keybd.o: ..\User\SX1276\SX1276.h
+.\objects\keybd.o: ..\User\SX1276\SX1276_LoRa.h
+.\objects\keybd.o: ..\User\SX1276\SX1276_Hal.h

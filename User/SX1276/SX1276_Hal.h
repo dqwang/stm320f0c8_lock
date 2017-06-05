@@ -181,7 +181,9 @@ void Init_LoraIO_DIO1_EXTIoff(void);
 void Init_LoraIO_DIO3_EXTIoff(void);
 
 void Init_LoraIO_LP(void);//
-void Init_LoraIO_PW(void);
+void Init_LoraIO_PW(void); 
 
+void SPI_SendData(UINT8 Data);
+UINT8 SPI_ReceiveData(void);
 
 #endif 

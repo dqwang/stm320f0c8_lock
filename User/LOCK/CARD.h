@@ -164,6 +164,11 @@ void CARD_lp_INIT(void);
 uint8 CARD_GETID(uint8 * cardid);
 void CARD_MAIN(void);
 
+u8 read_card_id(void);
+
+void test_read_card_id(void);
+
+
 #endif 		/* _CARD_H_ */
 
 

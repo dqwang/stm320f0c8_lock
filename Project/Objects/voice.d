@@ -42,3 +42,10 @@
 .\objects\voice.o: ..\User\LOCK\CARD.h
 .\objects\voice.o: ..\User\LOCK\DISP.h
 .\objects\voice.o: ..\User\LOCK\MOTO.h
+.\objects\voice.o: ..\User\LOCK\lora.h
+.\objects\voice.o: ..\User\SX1276\rf.h
+.\objects\voice.o: ..\User\main.h
+.\objects\voice.o: ..\User\SX1276\SX1276_App.h
+.\objects\voice.o: ..\User\SX1276\SX1276.h
+.\objects\voice.o: ..\User\SX1276\SX1276_LoRa.h
+.\objects\voice.o: ..\User\SX1276\SX1276_Hal.h
