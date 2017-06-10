@@ -1,5 +1,5 @@
 Dependencies for Project 'WDQ_STM32_LOCK', Target 'WDQ_STM32_LOCK': (DO NOT MODIFY !)
-F (..\User\Drv.c)(0x5933A520)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\drv.o --omf_browse .\objects\drv.crf --depend .\objects\drv.d)
+F (..\User\Drv.c)(0x5933A520)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\drv.o --omf_browse .\objects\drv.crf --depend .\objects\drv.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -30,7 +30,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -47,7 +47,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\Func.c)(0x5931203F)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\func.o --omf_browse .\objects\func.crf --depend .\objects\func.d)
+F (..\User\Func.c)(0x5931203F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\func.o --omf_browse .\objects\func.crf --depend .\objects\func.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -78,7 +78,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -95,7 +95,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\main.c)(0x5933B3FF)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\User\main.c)(0x5936B7DC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -126,7 +126,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -143,7 +143,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\stm32f0xx_it.c)(0x5933A58C)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_it.o --omf_browse .\objects\stm32f0xx_it.crf --depend .\objects\stm32f0xx_it.d)
+F (..\User\stm32f0xx_it.c)(0x593733CA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_it.o --omf_browse .\objects\stm32f0xx_it.crf --depend .\objects\stm32f0xx_it.d)
 I (..\User\stm32f0xx_it.h)(0x528ADCEA)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
@@ -175,7 +175,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -192,7 +192,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\system_stm32f0xx.c)(0x5821F162)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\system_stm32f0xx.o --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
+F (..\User\system_stm32f0xx.c)(0x5821F162)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\system_stm32f0xx.o --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
@@ -221,7 +221,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\User\LOCK\CARD.c)(0x59312612)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\card.o --omf_browse .\objects\card.crf --depend .\objects\card.d)
+F (..\User\LOCK\CARD.c)(0x59312612)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\card.o --omf_browse .\objects\card.crf --depend .\objects\card.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -252,7 +252,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -269,7 +269,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\LOCK\DATABASE.c)(0x590F252D)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\database.o --omf_browse .\objects\database.crf --depend .\objects\database.d)
+F (..\User\LOCK\DATABASE.c)(0x590F252D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\database.o --omf_browse .\objects\database.crf --depend .\objects\database.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -300,7 +300,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -317,7 +317,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\LOCK\DISP.c)(0x591191F3)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\disp.o --omf_browse .\objects\disp.crf --depend .\objects\disp.d)
+F (..\User\LOCK\DISP.c)(0x591191F3)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\disp.o --omf_browse .\objects\disp.crf --depend .\objects\disp.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -348,7 +348,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -365,7 +365,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\LOCK\FP.c)(0x590F264F)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\fp.o --omf_browse .\objects\fp.crf --depend .\objects\fp.d)
+F (..\User\LOCK\FP.c)(0x590F264F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\fp.o --omf_browse .\objects\fp.crf --depend .\objects\fp.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -396,7 +396,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -413,7 +413,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\LOCK\KEYBD.c)(0x58FB85C1)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\keybd.o --omf_browse .\objects\keybd.crf --depend .\objects\keybd.d)
+F (..\User\LOCK\KEYBD.c)(0x58FB85C1)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\keybd.o --omf_browse .\objects\keybd.crf --depend .\objects\keybd.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -444,7 +444,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -461,7 +461,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\LOCK\LOCK.c)(0x5933A763)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\lock.o --omf_browse .\objects\lock.crf --depend .\objects\lock.d)
+F (..\User\LOCK\LOCK.c)(0x5933A763)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\lock.o --omf_browse .\objects\lock.crf --depend .\objects\lock.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -492,7 +492,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -509,7 +509,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\LOCK\MOTO.c)(0x58FB72BD)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\moto.o --omf_browse .\objects\moto.crf --depend .\objects\moto.d)
+F (..\User\LOCK\MOTO.c)(0x58FB72BD)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\moto.o --omf_browse .\objects\moto.crf --depend .\objects\moto.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -540,7 +540,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -557,7 +557,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\LOCK\VOICE.c)(0x5930E363)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\voice.o --omf_browse .\objects\voice.crf --depend .\objects\voice.d)
+F (..\User\LOCK\VOICE.c)(0x5930E363)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\voice.o --omf_browse .\objects\voice.crf --depend .\objects\voice.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -588,7 +588,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -605,8 +605,8 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\startup_stm32f030.s)(0x5269DDFC)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include--pd "STM32F030x8 SETA 1"--list .\listings\startup_stm32f030.lst --xref -o .\objects\startup_stm32f030.o --depend .\objects\startup_stm32f030.d)
-F (..\User\LOCK\lora.c)(0x5933A466)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\lora.o --omf_browse .\objects\lora.crf --depend .\objects\lora.d)
+F (..\User\startup_stm32f030.s)(0x5269DDFC)(--cpu Cortex-M0 -g --apcs=interwork -I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include--pd "STM32F030x8 SETA 1"--list .\listings\startup_stm32f030.lst --xref -o .\objects\startup_stm32f030.o --depend .\objects\startup_stm32f030.d)
+F (..\User\LOCK\lora.c)(0x5933A466)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\lora.o --omf_browse .\objects\lora.crf --depend .\objects\lora.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -637,7 +637,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -654,7 +654,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_adc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_adc.o --omf_browse .\objects\stm32f0xx_adc.crf --depend .\objects\stm32f0xx_adc.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_adc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_adc.o --omf_browse .\objects\stm32f0xx_adc.crf --depend .\objects\stm32f0xx_adc.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -683,7 +683,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_cec.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_cec.o --omf_browse .\objects\stm32f0xx_cec.crf --depend .\objects\stm32f0xx_cec.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_cec.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_cec.o --omf_browse .\objects\stm32f0xx_cec.crf --depend .\objects\stm32f0xx_cec.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -712,7 +712,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_comp.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_comp.o --omf_browse .\objects\stm32f0xx_comp.crf --depend .\objects\stm32f0xx_comp.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_comp.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_comp.o --omf_browse .\objects\stm32f0xx_comp.crf --depend .\objects\stm32f0xx_comp.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -741,7 +741,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_crc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_crc.o --omf_browse .\objects\stm32f0xx_crc.crf --depend .\objects\stm32f0xx_crc.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_crc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_crc.o --omf_browse .\objects\stm32f0xx_crc.crf --depend .\objects\stm32f0xx_crc.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -770,7 +770,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_dac.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_dac.o --omf_browse .\objects\stm32f0xx_dac.crf --depend .\objects\stm32f0xx_dac.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_dac.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_dac.o --omf_browse .\objects\stm32f0xx_dac.crf --depend .\objects\stm32f0xx_dac.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -799,7 +799,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_dbgmcu.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_dbgmcu.o --omf_browse .\objects\stm32f0xx_dbgmcu.crf --depend .\objects\stm32f0xx_dbgmcu.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_dbgmcu.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_dbgmcu.o --omf_browse .\objects\stm32f0xx_dbgmcu.crf --depend .\objects\stm32f0xx_dbgmcu.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -828,7 +828,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_dma.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_dma.o --omf_browse .\objects\stm32f0xx_dma.crf --depend .\objects\stm32f0xx_dma.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_dma.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_dma.o --omf_browse .\objects\stm32f0xx_dma.crf --depend .\objects\stm32f0xx_dma.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -857,7 +857,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_exti.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_exti.o --omf_browse .\objects\stm32f0xx_exti.crf --depend .\objects\stm32f0xx_exti.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_exti.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_exti.o --omf_browse .\objects\stm32f0xx_exti.crf --depend .\objects\stm32f0xx_exti.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -886,7 +886,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_flash.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_flash.o --omf_browse .\objects\stm32f0xx_flash.crf --depend .\objects\stm32f0xx_flash.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_flash.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_flash.o --omf_browse .\objects\stm32f0xx_flash.crf --depend .\objects\stm32f0xx_flash.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -915,7 +915,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_gpio.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_gpio.o --omf_browse .\objects\stm32f0xx_gpio.crf --depend .\objects\stm32f0xx_gpio.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_gpio.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_gpio.o --omf_browse .\objects\stm32f0xx_gpio.crf --depend .\objects\stm32f0xx_gpio.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -944,7 +944,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_i2c.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_i2c.o --omf_browse .\objects\stm32f0xx_i2c.crf --depend .\objects\stm32f0xx_i2c.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_i2c.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_i2c.o --omf_browse .\objects\stm32f0xx_i2c.crf --depend .\objects\stm32f0xx_i2c.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -973,7 +973,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_iwdg.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_iwdg.o --omf_browse .\objects\stm32f0xx_iwdg.crf --depend .\objects\stm32f0xx_iwdg.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_iwdg.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_iwdg.o --omf_browse .\objects\stm32f0xx_iwdg.crf --depend .\objects\stm32f0xx_iwdg.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1002,7 +1002,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_misc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_misc.o --omf_browse .\objects\stm32f0xx_misc.crf --depend .\objects\stm32f0xx_misc.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_misc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_misc.o --omf_browse .\objects\stm32f0xx_misc.crf --depend .\objects\stm32f0xx_misc.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1031,7 +1031,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_pwr.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_pwr.o --omf_browse .\objects\stm32f0xx_pwr.crf --depend .\objects\stm32f0xx_pwr.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_pwr.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_pwr.o --omf_browse .\objects\stm32f0xx_pwr.crf --depend .\objects\stm32f0xx_pwr.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1060,7 +1060,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_rcc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_rcc.o --omf_browse .\objects\stm32f0xx_rcc.crf --depend .\objects\stm32f0xx_rcc.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_rcc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_rcc.o --omf_browse .\objects\stm32f0xx_rcc.crf --depend .\objects\stm32f0xx_rcc.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1089,7 +1089,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_rtc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_rtc.o --omf_browse .\objects\stm32f0xx_rtc.crf --depend .\objects\stm32f0xx_rtc.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_rtc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_rtc.o --omf_browse .\objects\stm32f0xx_rtc.crf --depend .\objects\stm32f0xx_rtc.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1118,7 +1118,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_spi.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_spi.o --omf_browse .\objects\stm32f0xx_spi.crf --depend .\objects\stm32f0xx_spi.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_spi.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_spi.o --omf_browse .\objects\stm32f0xx_spi.crf --depend .\objects\stm32f0xx_spi.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1147,7 +1147,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_syscfg.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_syscfg.o --omf_browse .\objects\stm32f0xx_syscfg.crf --depend .\objects\stm32f0xx_syscfg.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_syscfg.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_syscfg.o --omf_browse .\objects\stm32f0xx_syscfg.crf --depend .\objects\stm32f0xx_syscfg.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1176,7 +1176,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_tim.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_tim.o --omf_browse .\objects\stm32f0xx_tim.crf --depend .\objects\stm32f0xx_tim.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_tim.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_tim.o --omf_browse .\objects\stm32f0xx_tim.crf --depend .\objects\stm32f0xx_tim.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1205,7 +1205,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_usart.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_usart.o --omf_browse .\objects\stm32f0xx_usart.crf --depend .\objects\stm32f0xx_usart.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_usart.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_usart.o --omf_browse .\objects\stm32f0xx_usart.crf --depend .\objects\stm32f0xx_usart.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1234,7 +1234,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_wwdg.c)(0x528ACF1E)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_wwdg.o --omf_browse .\objects\stm32f0xx_wwdg.crf --depend .\objects\stm32f0xx_wwdg.d)
+F (..\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_wwdg.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_wwdg.o --omf_browse .\objects\stm32f0xx_wwdg.crf --depend .\objects\stm32f0xx_wwdg.d)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1263,7 +1263,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-F (..\User\SX1276\rf.c)(0x5933B0F7)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\rf.o --omf_browse .\objects\rf.crf --depend .\objects\rf.d)
+F (..\User\SX1276\rf.c)(0x5933B0F7)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\rf.o --omf_browse .\objects\rf.crf --depend .\objects\rf.d)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1294,7 +1294,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -1311,56 +1311,7 @@ I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\SX1276\SX1276.c)(0x592EE482)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\sx1276.o --omf_browse .\objects\sx1276.crf --depend .\objects\sx1276.d)
-I (..\User\SX1276\SX1276.h)(0x592ED66D)
-I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
-I (..\User\main.h)(0x593396B7)
-I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
-I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
-I (..\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
-I (..\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
-I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x528F2E6A)
-I (..\User\stm32f0xx_conf.h)(0x528ADCEA)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
-I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
-I (..\User\Func.h)(0x58FB79F7)
-I (..\User\Type.h)(0x593398B6)
-I (..\User\LOCK\LOCK.h)(0x590F260A)
-I (..\User\LOCK\FP.h)(0x58FB7627)
-I (..\User\LOCK\KEYBD.h)(0x58FB7BEA)
-I (..\User\LOCK\DATABASE.h)(0x590F24F2)
-I (..\User\LOCK\VOICE.h)(0x5930DDC8)
-I (..\User\LOCK\CARD.h)(0x5931268F)
-I (..\User\LOCK\DISP.h)(0x584512D4)
-I (..\User\LOCK\MOTO.h)(0x58FB763E)
-I (..\User\LOCK\lora.h)(0x59338C81)
-I (..\User\SX1276\rf.h)(0x59338DD4)
-I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
-I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\SX1276\SX1276_App.c)(0x58BAEE71)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\sx1276_app.o --omf_browse .\objects\sx1276_app.crf --depend .\objects\sx1276_app.d)
-I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
+F (..\User\SX1276\SX1276.c)(0x592EE482)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\sx1276.o --omf_browse .\objects\sx1276.crf --depend .\objects\sx1276.d)
 I (..\User\SX1276\SX1276.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\main.h)(0x593396B7)
@@ -1393,7 +1344,7 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)
@@ -1406,8 +1357,12 @@ I (..\User\LOCK\DISP.h)(0x584512D4)
 I (..\User\LOCK\MOTO.h)(0x58FB763E)
 I (..\User\LOCK\lora.h)(0x59338C81)
 I (..\User\SX1276\rf.h)(0x59338DD4)
+I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
 I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
-F (..\User\SX1276\SX1276_Hal.c)(0x5933B10F)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\sx1276_hal.o --omf_browse .\objects\sx1276_hal.crf --depend .\objects\sx1276_hal.d)
+F (..\User\SX1276\SX1276_App.c)(0x58BAEE71)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\sx1276_app.o --omf_browse .\objects\sx1276_app.crf --depend .\objects\sx1276_app.d)
+I (..\User\SX1276\SX1276_App.h)(0x592ED66D)
+I (..\User\SX1276\SX1276.h)(0x592ED66D)
+I (..\User\SX1276\SX1276_LoRa.h)(0x592ED625)
 I (..\User\main.h)(0x593396B7)
 I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
 I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
@@ -1438,7 +1393,52 @@ I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
 I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
-I (..\User\Drv.h)(0x5933A532)
+I (..\User\Drv.h)(0x5934A9C9)
+I (..\User\Func.h)(0x58FB79F7)
+I (..\User\Type.h)(0x593398B6)
+I (..\User\LOCK\LOCK.h)(0x590F260A)
+I (..\User\LOCK\FP.h)(0x58FB7627)
+I (..\User\LOCK\KEYBD.h)(0x58FB7BEA)
+I (..\User\LOCK\DATABASE.h)(0x590F24F2)
+I (..\User\LOCK\VOICE.h)(0x5930DDC8)
+I (..\User\LOCK\CARD.h)(0x5931268F)
+I (..\User\LOCK\DISP.h)(0x584512D4)
+I (..\User\LOCK\MOTO.h)(0x58FB763E)
+I (..\User\LOCK\lora.h)(0x59338C81)
+I (..\User\SX1276\rf.h)(0x59338DD4)
+I (..\User\SX1276\SX1276_Hal.h)(0x5933A71B)
+F (..\User\SX1276\SX1276_Hal.c)(0x5933B10F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\Library\CMSIS -I..\Library\STM32F0xx_StdPeriph_Driver\inc -I..\Library\STM32F0xx_StdPeriph_Driver\src -I..\User -I..\Library\CMSIS\Include -I..\Library\CMSIS\Device\ST\STM32F0xx\Include -I..\User\LOCK -I..\User\SX1276-I Z:\sihan\stm\stm320f0c8_lock\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0-I C:\Keil_v5\ARM\CMSIS\Include-DSTM32F030x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\sx1276_hal.o --omf_browse .\objects\sx1276_hal.crf --depend .\objects\sx1276_hal.d)
+I (..\User\main.h)(0x593396B7)
+I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x52940438)
+I (..\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (..\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (..\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (..\Library\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x528F2E6A)
+I (..\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (..\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (..\User\Drv.h)(0x5934A9C9)
 I (..\User\Func.h)(0x58FB79F7)
 I (..\User\Type.h)(0x593398B6)
 I (..\User\LOCK\LOCK.h)(0x590F260A)

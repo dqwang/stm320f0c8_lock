@@ -29,7 +29,7 @@ int main(void)
 	//KEYBD_MAIN();
 	//LOCK_MAIN();
 	//MCU_SLEEP();
-	//CARD_MAIN();
+	CARD_MAIN();
 	#else
 
 	//test_hwapi03_rf433m_power_ctrl();

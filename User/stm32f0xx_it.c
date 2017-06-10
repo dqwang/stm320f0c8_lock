@@ -308,6 +308,8 @@ void EXTI2_3_IRQHandler(void)
 		 Lora_Comm_Flag = 1;
 		 delay_us(5);	 
 		 RF_RXmode(RF_PACK_SIZE);
+
+		 VOICE(0,0);
 	 }	
     }  	
 EXTI_ClearFlag(EXTI_Line2); 	
